@@ -7,7 +7,7 @@ package util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
+
 
 /**
  *
@@ -28,5 +28,14 @@ public class ConectionFactory {
                 throw new RuntimeException("Erro na connexao com o banco de dados", ex);
             }
             
+        }
+        public static void closeConnection (Connection connection){
+            try {
+                if (connection != null){
+                    connection.close();
+                }
+            } catch (Exception ex) {
+               throw new RuntimeException("Erro ao fechar connexao com o banco de dados", ex);
+            }   
         }
 } 
