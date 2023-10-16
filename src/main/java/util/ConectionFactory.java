@@ -5,17 +5,28 @@
  */
 package util;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
 /**
  *
  * @author rafar
  */
 public class ConectionFactory {
         
-        private static final String Driver = "com.mysql.jdbc.Driver";
+        private static final String DRIVER = "com.mysql.jdbc.Driver";
         private static final String URL = "jdbc:mysql://localhost:3306/apptarefas";
         private static final String USER = "root";
         private static final String PASS = "";
     
-    
-    
-}
+        public static Connection getConnection(){
+            try {
+                Class.forName(DRIVER);
+                return DriverManager.getConnection(URL, USER, PASS);
+            } catch (Exception ex) {
+                throw new RuntimeException("Erro na connexao com o banco de dados", ex);
+            }
+            
+        }
+} 
