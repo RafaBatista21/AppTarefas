@@ -55,8 +55,8 @@ AppTarefas/
 Projeto pessoal desenvolvido com o objetivo de praticar **persistência de dados** em Java e reforçar o uso de **banco de dados MySQL** com JDBC. Faz parte do meu portfólio como desenvolvedor.
 
 **Autor:** Rafael Fonseca  
-[GitHub](https://github.com/RafaBatista21) 
-[LinkedIn]([https://www.linkedin.com/in/rafael-fonseca-dev](https://www.linkedin.com/in/rafael-batista-dev21/)
+- [GitHub](https://github.com/RafaBatista21) 
+- [LinkedIn]([https://www.linkedin.com/in/rafael-fonseca-dev](https://www.linkedin.com/in/rafael-batista-dev21/)
 
 ---
 
