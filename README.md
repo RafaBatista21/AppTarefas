@@ -56,7 +56,7 @@ Projeto pessoal desenvolvido com o objetivo de praticar **persistência de dados
 
 **Autor:** Rafael Fonseca  
 - [GitHub](https://github.com/RafaBatista21) 
-- [LinkedIn]([https://www.linkedin.com/in/rafael-fonseca-dev](https://www.linkedin.com/in/rafael-batista-dev21/))
+- [LinkedIn](https://www.linkedin.com/in/rafael-batista-dev21/)
 
 ---
 
